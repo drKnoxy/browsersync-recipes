@@ -3,30 +3,34 @@
 There are endless amounts of possible integrations and workflow scenarios when using Browsersync, so this project is an 
 attempt to highlight as many of them as we can, whilst providing full, working examples.
 
-Here's what we have currently...
+#### Grunt recipes
+- [SASS](https://github.com/Browsersync/recipes/tree/master/recipes/grunt.sass)
+- [SASS, Autoprefixer](https://github.com/Browsersync/recipes/tree/master/recipes/grunt.sass.autoprefixer)
+- [SASS, HTML/CSS injection](https://github.com/Browsersync/recipes/tree/master/recipes/grunt.html.injection)
 
-- [Grunt, SASS, HTML/CSS injection example](https://github.com/Browsersync/recipes/tree/master/recipes/grunt.html.injection)
-- [Grunt &amp; SASS](https://github.com/Browsersync/recipes/tree/master/recipes/grunt.sass)
-- [Grunt, SASS &amp; Autoprefixer](https://github.com/Browsersync/recipes/tree/master/recipes/grunt.sass.autoprefixer)
-- [Browserify, Babelify + Watchify + Sourcemaps Example](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.browserify)
-- [Gulp, SASS + Jade Templates](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.jade)
-- [Gulp &amp; Ruby SASS](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.ruby.sass)
-- [Gulp &amp; SASS](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.sass)
-- [Gulp &amp; Swig Templates](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.swig)
-- [Gulp, SASS + Slow running tasks](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.task.sequence)
-- [HTML/CSS injection example](https://github.com/Browsersync/recipes/tree/master/recipes/html.injection)
-- [Middleware + CSS example](https://github.com/Browsersync/recipes/tree/master/recipes/middleware.css.injection)
-- [Server example](https://github.com/Browsersync/recipes/tree/master/recipes/server)
-- [Server with pre-gzipped assets example](https://github.com/Browsersync/recipes/tree/master/recipes/server.gzipped.assets)
-- [Server includes example](https://github.com/Browsersync/recipes/tree/master/recipes/server.includes)
-- [Server + Logging + History API fallback middlewares Example](https://github.com/Browsersync/recipes/tree/master/recipes/server.middleware)
-- [Webpack + Babel](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.babel)
-- [Webpack + Monkey Hot Loader](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.monkey-hot-loader)
-- [Webpack + React Hot Loader](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.react-hot-loader)
-- [Webpack + React Transform HMR](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.react-transform-hmr)
+#### Gulp recipes
+- [SASS](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.sass)
+- [SASS, Jade Templates](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.jade)
+- [Ruby SASS](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.ruby.sass)
+- [SASS, Slow running tasks](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.task.sequence)
+- [Swig Templates](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.swig)
 
-... each one is a full, working example - just have a look at the `readme.md` in each one for installation
-instructions.
+#### Other recipes
+- [Browserify, Babelify, Watchify, Sourcemaps](https://github.com/Browsersync/recipes/tree/master/recipes/gulp.browserify)
+- [HTML/CSS injection](https://github.com/Browsersync/recipes/tree/master/recipes/html.injection)
+- [Middleware, CSS](https://github.com/Browsersync/recipes/tree/master/recipes/middleware.css.injection)
+
+#### Server recipes
+- [Example](https://github.com/Browsersync/recipes/tree/master/recipes/server)
+- [With pre-gzipped assets](https://github.com/Browsersync/recipes/tree/master/recipes/server.gzipped.assets)
+- [Using includes](https://github.com/Browsersync/recipes/tree/master/recipes/server.includes)
+- [Middleware: logging, history](https://github.com/Browsersync/recipes/tree/master/recipes/server.middleware)
+
+#### Webpack recipes
+- [Babel](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.babel)
+- [Monkey Hot Loader](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.monkey-hot-loader)
+- [React Hot Loader](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.react-hot-loader)
+- [React Transform HMR](https://github.com/Browsersync/recipes/tree/master/recipes/webpack.react-transform-hmr)
 
 
 ### Contributions / Feedback
@@ -34,6 +38,7 @@ instructions.
 Spotted an error? Couldn't get one of the examples running? Have your own sweet setup that you want to show off to the world?
 We'd love to receive your feedback and contributions - so please get in touch! We aim to make this project the canonical source 
 of example projects & code snippets related to running Browsersync.
+
 
 ### How to contribute an example
 
@@ -57,7 +62,6 @@ but there are a couple of rules you'll need to follow to ensure the project can 
 
 ### package.json requirements
 
-
 **start command**: For consistency, ensure your example can be run with the command `npm start`. To 
 do this, you just need to provide something along these lines:
 
@@ -79,6 +83,7 @@ don't miss this field.
 ```json
 "description": "Server example"
 ```
+
 
 ### Finally, build.
 After you've added your example in the recipes folder, return to the root and run
